@@ -44,7 +44,6 @@ export default {
     methods: {
         addContact(){
             this.newContact.id = '898192898'
-            this.test = this.newContact
             this.$emit('input', this.newContact)
         }
     }

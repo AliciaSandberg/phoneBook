@@ -31,7 +31,7 @@ export default {
     contacts: {
       type: Array,
       required: true
-    }
+    },
   },
   data() {
     return {
